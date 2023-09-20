@@ -1,0 +1,49 @@
+{
+  "seeds": [
+    {
+      "name": "Lettuce",
+      "color": "lightgreen",
+      "file": "LettuceSeed"
+    },
+    {
+      "name": "Tomato",
+      "color": "red",
+      "file": "TomatoSeed"
+    },
+    {
+      "name": "Yellow Pepper",
+      "color": "yellow",
+      "file": "YellowPepperSeed"
+    },
+    {
+      "name": "Generic Gourd",
+      "color": "beige",
+      "file": "GenericGourdSeed"
+    },
+    {
+      "name": "Pea",
+      "color": "green",
+      "file": "PeaSeed"
+    },
+    {
+      "name": "Herb",
+      "color": "green",
+      "file": "HerbSeed"
+    },
+    {
+      "name": "Ube Yam",
+      "color": "purple",
+      "file": "UbeYamSeed"
+    },
+    {
+      "name": "Potato",
+      "color": "tan",
+      "file": "PotatoSeed"
+    },
+    {
+      "name": "Carrot",
+      "color": "orange",
+      "file": "CarrotSeed"
+    }
+  ]
+}

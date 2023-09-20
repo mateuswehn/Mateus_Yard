@@ -1,0 +1,114 @@
+# TODOs
+- Luumba.py:
+  - description: No TODO markers left in Luumba.py
+    category: Luumba Labor
+    check: MatchFileFragment
+    options:
+      fragment: "TODO"
+      count: 0
+      exact: true
+- garden/Croomba.py:
+  - description: Croomba.py contains no TODO markers
+    category: Algorithmic Ag
+    check: MatchFileFragment
+    options:
+      fragment: "TODO"
+      count: 0
+      exact: true
+- treehouse/reflection.md:
+  - description: No TODO markers left in reflection.md
+    category: Reflection
+    check: MatchFileFragment
+    options:
+      fragment: "TODO"
+      count: 0
+      exact: true
+# PROOF OF LIFE
+- treehouse/reflection.md:
+  - description: Treehouse successfully constructed
+    category: Luumba Labor
+    check: ConfirmFileExists
+- description: There's something a-field in the...field
+  check: CountCommandOutput
+  category: Algorithmic Ag
+  options:
+    command: ls -l garden/field
+    count: 3
+# REFLECTION
+- treehouse/reflection.md:
+  - description: All questions answered in reflection.md
+    category: Reflection
+    check: CountFileParagraphs
+    options:
+      count: 7
+- treehouse/reflection.md:
+  - description: Reflection contains at least 300 words
+    category: Reflection
+    check: CountFileWords
+    options:
+      count: 300
+- treehouse/reflection.md:
+  - description: All checkboxes checked, attested to
+    category: Reflection
+    check: MatchFileRegex
+    options:
+      regex: "\\-\\s\\[x\\]"
+      count: 3
+# COMMENT COPS
+- Luumba.py:
+  - description: Luumba.py has at least 10 single-line comments
+    category: Commenting code
+    check: CountSingleLineComments
+    options:
+      language: Python
+      count: 10
+- Luumba.py:
+  - description: Luumba.py has at least 3 multi-line comments for function descriptions
+    category: Commenting code
+    check: CountMultipleLineComments
+    options:
+      language: Python
+      count: 3
+- garden/Croomba.py:
+  - description: Croomba.py has at least 3 comments defining what methods might do
+    category: Commenting code
+    check: CountSingleLineComments
+    options:
+      language: Python
+      count: 7
+# LEARNING OBJECTIVES
+- Luumba.py:
+  - description: Luumba.py creates a minimum of 3 functions for cut shapes
+    category: Functions
+    check: MatchFileRegex
+    options:
+      regex: "def\\s[a-z0-9_]+\\([a-z0-9_\\:\\s=\\.]+(,(\\s)?[a-z0-9_\\:\\s=\\.]+)?\\)(\\s)?\\->(\\s)?[a-z]+\\:"
+      count: 3
+- Luumba.py:
+  - description: Luumba.py functions return values
+    category: Functions
+    check: MatchFileRegex
+    options:
+      regex: "return\\s[a-z0-9_]+"
+      count: 3
+- garden/Croomba.py:
+  - description: Croomba.py uses the mixer.mix() method
+    category: Algorithmic Ag
+    check: MatchFileRegex
+    options:
+      regex: "mixer\\.mix\\(\\)"
+      count: 1
+- garden/Croomba.py:
+  - description: Croomba.py uses the dispenser.dispense() method
+    category: Algorithmic Ag
+    check: MatchFileRegex
+    options:
+      regex: "dispenser\\.dispense\\(\\)"
+      count: 1
+- garden/Croomba.py:
+  - description: Croomba.py uses the can.use() method with correct parameter
+    category: Algorithmic Ag
+    check: MatchFileRegex
+    options:
+      regex: 'can.use\(location(\s)?=(\s)?"field"\)'
+      count: 1

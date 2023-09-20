@@ -1,0 +1,42 @@
+#############
+# TREEHOUSE #
+#############
+0:
+  0: 
+    - It appears that R2B2 the Luumba doesn't agree with your calculations.
+    - Rather than having an unproductive dispute with a robot,
+    - check your calculations.
+1:
+  0: 
+    - And in no time at all, the robot builds your treehouse!
+    - To have a look, change directories to your brand new structure.
+###################
+#   SEED CATALOG  #
+###################
+2:
+  0:
+    - ====================
+    - = SEED CATALOG 1.0 =
+    - ====================
+    - LEAVE BLANK TO QUIT!
+    - --------------------
+  1:
+    - ==================================
+    - = ERROR ADDING SEED TO INVENTORY =
+    - ==================================
+  2: 
+    - ===========================
+    - = SEED ADDED TO INVENTORY =
+    - ===========================
+###################
+#  WATERING CAN   #
+###################
+3:
+  0:
+    - "⚠️  Are there any seeds in the field?"
+  1:
+    - "⚠️  Did you drop any seeds in the field?"
+  3:
+    - "⚠️  Might not be the best soil, but we'll try."
+  4: 
+    - "⚠️  Looks like you're missing some fertilizer."
